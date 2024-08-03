@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DK+Loopet:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Oswald:wght@200..700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box ;
+    color: #1d1d1d;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    
+}
+
+/* master-header */
+
+.master-header .left-top-widet li , .master-header .reight-top-widet li{
+    list-style: none;
+    justify-content: space-between;
+    color: #bebebe;
+    padding: 0 1px;
+    margin: 0px 0px 0px 15px;
+    cursor: pointer;
+
+}
+
+ .master-header .left-top-widet a , .master-header .reight-top-widet a {
+    text-decoration: none;
+    color: #bebebe;
+   
+    
+}
+
+.master-header .left-top-widet ul , .master-header .reight-top-widet ul{
+    display: flex;
+    justify-content: space-between;
+    
+ 
+}
+
+.master-header{
+    position: sticky;
+    top: 0%;
+    background: #fff;
+}
+
+
+.master-header  {
+
+height: 40px;
+display: flex;
+font-size: 13px;
+justify-content: space-between;
+align-items: center;
+padding: 0px 55px;
+margin: 0px auto;
+margin-top: 5px;
+ background-color: black; 
+color: #bebebe;
+font-weight: 400;
+
+}
+
+
+.fa-brands {
+     color: #bebebe;;
+}
+.fa-solid {
+
+    color: #bebebe;
+}
+
+
+/* header-wrapper-inside */
+
+.header-wrapper-inside .left-header-inside li , .header-wrapper-inside .right-header-inside li{
+
+    list-style: none;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 1px;
+    margin: 0px 0px 0px 15px;
+    cursor: pointer;
+
+}
+
+.header-wrapper-inside .left-header-inside a , .header-wrapper-inside .right-header-inside a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.header-wrapper-inside .left-header-inside ul , .header-wrapper-inside .right-header-inside ul{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.header-wrapper-inside .center-header-inside h2{
+
+    font-family: "Playwrite DK Loopet", cursive;
+    color: #fff;
+}
+
+.hero-banner .header-wrapper-inside {
+
+height: 60px;
+display: flex;
+font-size: 16px;
+justify-content: space-between;
+align-items: center;
+padding: 0px 55px;
+margin: 0px auto;
+margin-top: 10px;
+color: rgb(67, 47, 20);
+font-weight: 400;
+
+
+}
+.hero-banner {
+    width: 100%;
+    height: 100vh;
+    
+}
+.header-wrapper-inside{
+    position: fixed;
+    top: 0;
+}
+.hero-banner video{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 85%;
+    pointer-events: none;
+    opacity: 100%;
+    background-color: rgba(0, 0, 0, 0.947);
+}
+.hero-banner .header-wrapper-inside{
+
+    position: relative;
+    z-index: 1;
+
+}
+
+.hero-banner .header-wrapper-inside .left-header-inside a:hover{ 
+   
+    color: #943939;
+
+}
+
+.hero-banner .header-wrapper-inside .right-header-inside a:hover {
+
+    color: #943939;
+
+}
+
+/* for center content */
+
+.center-content{
+    position: relative;
+    z-index: 1;
+
+}
+
+.center-content{
+   width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ ul{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+li{
+    list-style: none;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 1px;
+    margin: 0px 0px 0px 15px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.center-content h2{
+    width: fit-content;
+    color: #fff;
+    font-size: 67px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    display: block;
+    text-align: center;
+    font-family: "Bodoni Moda SC", serif;
+    
+   
+    
+}
